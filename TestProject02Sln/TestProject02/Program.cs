@@ -18,6 +18,7 @@ namespace TestProject02
             CreateWebHostBuilder(args).Build().Run();
             Console.WriteLine("Stop");
             Console.WriteLine("Bye Bye");
+            Console.WriteLine("Hello world");
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
