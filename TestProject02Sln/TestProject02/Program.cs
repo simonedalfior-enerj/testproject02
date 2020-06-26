@@ -20,6 +20,7 @@ namespace TestProject02
             Console.WriteLine("Bye Bye");
         }
 
+        public static void Test06() { }
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>();
